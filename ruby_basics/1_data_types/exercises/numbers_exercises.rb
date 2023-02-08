@@ -5,6 +5,7 @@ end
 
 def subtract(a, b)
   # return the result of subtracting b from a
+  a - b
 end
 
 def multiply(a, b)
@@ -14,7 +15,7 @@ end
 def divide(a, b)
   # return the result of dividing a by b
 end
-
+sai
 def remainder(a, b)
   # return the remainder of dividing a by b using the modulo operator
 end

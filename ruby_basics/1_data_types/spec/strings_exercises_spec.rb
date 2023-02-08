@@ -90,7 +90,7 @@ RSpec.describe 'String Exercises' do
 
   describe 'reverse exercise' do
 
-    xit 'reverses a word' do
+    it 'reverses a word' do
       expect(reverse('desrever')).to eq('reversed')
     end
 

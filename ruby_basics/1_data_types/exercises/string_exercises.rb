@@ -40,6 +40,7 @@ end
 
 def reverse(string)
   # return the same string, with all of its characters reversed
+  string.reverse
 end
 
 def space_remover(string)

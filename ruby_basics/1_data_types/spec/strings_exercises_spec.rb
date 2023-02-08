@@ -45,7 +45,7 @@ RSpec.describe 'String Exercises' do
 
   describe 'uppercasing exercise' do
 
-    xit 'uppercases a word' do
+    it 'uppercases a word' do
       expect(uppercase('small')).to eq('SMALL')
     end
 

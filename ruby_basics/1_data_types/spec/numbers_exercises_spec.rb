@@ -67,7 +67,7 @@ RSpec.describe 'Numbers Exercises' do
 
   describe 'even exercise' do
 
-    xit 'returns true when the number is even' do
+    it 'returns true when the number is even' do
       expect(even?(6)).to eq(true)
     end
 

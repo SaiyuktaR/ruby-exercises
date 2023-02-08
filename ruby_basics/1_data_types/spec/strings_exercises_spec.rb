@@ -94,7 +94,7 @@ RSpec.describe 'String Exercises' do
       expect(reverse('desrever')).to eq('reversed')
     end
 
-    xit 'reverses multiple words' do
+    it 'reverses multiple words' do
       expect(reverse('dnuora kcab')).to eq('back around')
     end
   end

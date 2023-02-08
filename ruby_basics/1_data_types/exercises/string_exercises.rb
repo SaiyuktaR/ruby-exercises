@@ -35,6 +35,7 @@ end
 
 def string_length(string)
   # return the length of the string
+  string.length
 end
 
 def reverse(string)

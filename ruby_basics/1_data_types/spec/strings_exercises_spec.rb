@@ -57,7 +57,7 @@ RSpec.describe 'String Exercises' do
 
   describe 'downcasing exercise' do
 
-    xit 'downcases a word' do
+    it 'downcases a word' do
       expect(downcase('LARGE')).to eq('large')
     end
 

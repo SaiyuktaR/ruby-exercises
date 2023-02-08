@@ -72,7 +72,7 @@ RSpec.describe 'String Exercises' do
       expect(empty_string('')).to eq(true)
     end
 
-    xit 'returns false if string is not empty' do
+    it 'returns false if string is not empty' do
       expect(empty_string('wow')).to eq(false)
     end
   end

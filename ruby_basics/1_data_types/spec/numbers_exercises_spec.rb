@@ -85,6 +85,5 @@ RSpec.describe 'Numbers Exercises' do
     it 'returns false when the number is not odd' do
        expect(odd?(6)).to eq(false)
     end
-
   end
 end

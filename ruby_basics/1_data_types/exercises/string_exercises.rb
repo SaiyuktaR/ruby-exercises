@@ -10,6 +10,7 @@ end
 
 def substrings(word)
   # return the first 4 letters from the word using substrings
+  word[0..3]
 end
 
 def capitalize(word)

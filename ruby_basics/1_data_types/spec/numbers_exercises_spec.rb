@@ -78,7 +78,7 @@ RSpec.describe 'Numbers Exercises' do
 
   describe 'odd exercise' do
 
-    xit 'returns true when the number is odd' do
+    it 'returns true when the number is odd' do
        expect(odd?(9)).to eq(true)
     end
 

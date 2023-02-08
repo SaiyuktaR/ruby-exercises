@@ -30,7 +30,7 @@ RSpec.describe 'String Exercises' do
 
   describe 'capitalizing exercise' do
 
-    xit 'capitalizes a word' do
+    it 'capitalizes a word' do
       expect(capitalize('paris')).to eq('Paris')
     end
 

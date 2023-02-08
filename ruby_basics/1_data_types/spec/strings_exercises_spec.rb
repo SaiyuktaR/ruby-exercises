@@ -49,7 +49,7 @@ RSpec.describe 'String Exercises' do
       expect(uppercase('small')).to eq('SMALL')
     end
 
-    xit 'uppercases multiple words' do
+    it 'uppercases multiple words' do
       expect(uppercase('make me bigger')).to eq('MAKE ME BIGGER')
     end
   end

@@ -121,7 +121,7 @@ RSpec.describe 'Array Exercises' do
       expect(reverse([0, 1, 1, 2, 3, 5])).to eq([5, 3, 2, 1, 1, 0])
     end
 
-    xit 'returns an array containing the element when there is only one' do
+    it 'returns an array containing the element when there is only one' do
       expect(reverse(['foo'])).to eq(['foo'])
     end
   end

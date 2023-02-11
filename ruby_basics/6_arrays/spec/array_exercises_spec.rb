@@ -95,7 +95,7 @@ RSpec.describe 'Array Exercises' do
 
   describe 'array difference exercise' do
 
-    xit 'returns an array subtracting two arrays of numbers' do
+    it 'returns an array subtracting two arrays of numbers' do
       expect(array_difference([0, 1, 1, 2, 3, 5], [0, 1, 2])).to eq([3, 5])
     end
 

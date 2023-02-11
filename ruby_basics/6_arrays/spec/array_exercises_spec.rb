@@ -31,7 +31,7 @@ RSpec.describe 'Array Exercises' do
       expect(third_element([2, 4, 6, 8, 10])).to eq(6)
     end
 
-    xit 'returns nil if the array does not have a third element' do
+    it 'returns nil if the array does not have a third element' do
       expect(third_element(['foo', 'bar'])).to eq(nil)
     end
   end

@@ -77,7 +77,7 @@ RSpec.describe 'Array Exercises' do
       expect(remove_first_three_elements([1, 3, 5, 7, 9])).to eq([7, 9])
     end
 
-    xit 'returns an empty array when the array has less than 3 elements' do
+    it 'returns an empty array when the array has less than 3 elements' do
       expect(remove_first_three_elements(['foo', 'bar'])).to eq([])
     end
   end

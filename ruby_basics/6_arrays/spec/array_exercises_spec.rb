@@ -73,7 +73,7 @@ RSpec.describe 'Array Exercises' do
 
   describe 'remove first three elements exercise' do
 
-    xit 'returns the array without the first three elements' do
+    it 'returns the array without the first three elements' do
       expect(remove_first_three_elements([1, 3, 5, 7, 9])).to eq([7, 9])
     end
 

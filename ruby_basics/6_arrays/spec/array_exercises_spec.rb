@@ -20,7 +20,7 @@ RSpec.describe 'Array Exercises' do
       expect(first_element([2, 4, 6, 8, 10])).to eq(2)
     end
 
-    xit 'returns the first element of an array of strings' do
+    it 'returns the first element of an array of strings' do
       expect(first_element(['foo', 'bar'])).to eq('foo')
     end
   end

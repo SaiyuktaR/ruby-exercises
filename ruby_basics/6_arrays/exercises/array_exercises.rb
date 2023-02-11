@@ -15,6 +15,7 @@ end
 
 def last_three_elements(array)
   # return the last 3 elements of the array
+  last_three_elements = array.pop(3)
 end
 
 def add_element(array)

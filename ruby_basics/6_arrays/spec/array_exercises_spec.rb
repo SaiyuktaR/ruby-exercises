@@ -106,7 +106,7 @@ RSpec.describe 'Array Exercises' do
 
   describe 'empty array exercise' do
 
-    xit 'returns true when the array is empty' do
+    it 'returns true when the array is empty' do
       expect(empty_array?([])).to be true
     end
 

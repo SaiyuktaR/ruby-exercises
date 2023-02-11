@@ -132,7 +132,7 @@ RSpec.describe 'Array Exercises' do
       expect(array_length([0, 1, 1, 2, 3, 5])).to eq(6)
     end
 
-    xit 'returns zero when the array is empty' do
+    it 'returns zero when the array is empty' do
       expect(array_length([])).to eq(0)
     end
   end

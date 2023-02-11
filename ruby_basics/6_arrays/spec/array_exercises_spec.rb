@@ -154,7 +154,7 @@ RSpec.describe 'Array Exercises' do
       expect(join([0, 1, 1, 2, 3, 5], ' + ')).to eq('0 + 1 + 1 + 2 + 3 + 5')
     end
 
-    xit 'returns a string joining an array of strings with " "' do
+    it 'returns a string joining an array of strings with " "' do
       expect(join(['foo', 'bar', 'baz'], ' ')).to eq('foo bar baz')
     end
   end

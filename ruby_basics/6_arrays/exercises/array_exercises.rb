@@ -39,6 +39,7 @@ end
 
 def array_concatenation(original, additional)
   # return an array adding the original and additional array together
+  array_concatenation = original + additional
 end
 
 def array_difference(original, comparison)

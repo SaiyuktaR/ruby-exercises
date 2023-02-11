@@ -128,7 +128,7 @@ RSpec.describe 'Array Exercises' do
 
   describe 'array length exercise' do
 
-    xit 'returns the length of the array' do
+    it 'returns the length of the array' do
       expect(array_length([0, 1, 1, 2, 3, 5])).to eq(6)
     end
 

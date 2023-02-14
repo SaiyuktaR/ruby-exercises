@@ -20,7 +20,7 @@ RSpec.describe 'Hash Exercises' do
 
   describe 'favorite color exercise' do
 
-    xit 'returns a string' do
+    it 'returns a string' do
       my_favorites = { color: 'blue', number: 65 }
       expect(favorite_color(my_favorites)).to eq('blue')
     end

@@ -130,7 +130,7 @@ RSpec.describe 'Hash Exercises' do
       expect(merge_favorites(my_favorites, favorite_movie)).to eq(result)
     end
 
-    xit 'returns a hash with all key/value pairs and an updated value when there is duplicate' do
+    it 'returns a hash with all key/value pairs and an updated value when there is duplicate' do
       my_favorites = { color: 'teal', number: 65 }
       new_favorites = { number: 42, movie: "The Hitchhiker's Guide to the Galaxy" }
       result = { color: 'teal', number: 42, movie: "The Hitchhiker's Guide to the Galaxy" }

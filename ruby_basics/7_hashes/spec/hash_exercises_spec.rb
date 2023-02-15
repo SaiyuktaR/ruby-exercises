@@ -116,7 +116,7 @@ RSpec.describe 'Hash Exercises' do
 
   describe 'merge favorites exercise' do
 
-    xit 'returns a hash with all key/value pairs when there is not a duplicate' do
+    it 'returns a hash with all key/value pairs when there is not a duplicate' do
       my_favorites = { color: 'blue', number: 65 }
       favorite_movie = { movie: 'Avengers: Endgame' }
       result = { color: 'blue', number: 65, movie: 'Avengers: Endgame' }

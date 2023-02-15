@@ -43,7 +43,7 @@ RSpec.describe 'Hash Exercises' do
       expect(favorite_number(my_favorites)).to eq(65)
     end
 
-    xit 'returns a hash' do
+    it 'returns a hash' do
       my_favorites = { color: ['orange', 'green'], number: { lucky: 7 } }
       expect(favorite_number(my_favorites)).to eq({ lucky: 7 })
     end

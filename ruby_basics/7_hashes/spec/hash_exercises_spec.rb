@@ -90,7 +90,7 @@ RSpec.describe 'Hash Exercises' do
       expect(favorite_categories(my_favorites)).to eq([:color, :number, :movie])
     end
 
-    xit 'returns an empty array when hash is empty' do
+    it 'returns an empty array when hash is empty' do
       my_favorites = {}
       expect(favorite_categories(my_favorites)).to eq([])
     end

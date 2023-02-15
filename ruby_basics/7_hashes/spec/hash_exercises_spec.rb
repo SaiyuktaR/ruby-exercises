@@ -62,7 +62,7 @@ RSpec.describe 'Hash Exercises' do
       expect(update_favorite_movie(my_favorites, 'Avengers: Endgame')).to eq(result)
     end
 
-    xit 'returns hash with an updated key/value pair when included' do
+    it 'returns hash with an updated key/value pair when included' do
       my_favorites = { color: 'emerald green', movie: 'Avengers: Endgame' }
       result = { color: 'emerald green', movie: 'Avengers: Infinity War' }
       expect(update_favorite_movie(my_favorites, 'Avengers: Infinity War')).to eq(result)

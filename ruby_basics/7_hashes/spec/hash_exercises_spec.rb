@@ -98,7 +98,7 @@ RSpec.describe 'Hash Exercises' do
 
   describe 'favorite items exercise' do
 
-    xit 'returns an array with the string and integer values' do
+    it 'returns an array with the string and integer values' do
       my_favorites = { color: 'blue', number: 65, movie: 'Avengers: Endgame' }
       expect(favorite_items(my_favorites)).to eq(['blue', 65, 'Avengers: Endgame'])
     end

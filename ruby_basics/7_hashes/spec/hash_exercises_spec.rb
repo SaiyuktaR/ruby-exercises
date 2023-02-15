@@ -77,7 +77,7 @@ RSpec.describe 'Hash Exercises' do
       expect(remove_favorite_number(my_favorites)).to eq(result)
     end
 
-    xit 'returns hash when key/value pair is not included' do
+    it 'returns hash when key/value pair is not included' do
       my_favorites = { color: 'blue', movie: 'Avengers: Endgame' }
       expect(remove_favorite_number(my_favorites)).to eq(my_favorites)
     end

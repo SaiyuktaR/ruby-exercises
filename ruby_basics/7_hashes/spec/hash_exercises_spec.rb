@@ -103,7 +103,7 @@ RSpec.describe 'Hash Exercises' do
       expect(favorite_items(my_favorites)).to eq(['blue', 65, 'Avengers: Endgame'])
     end
 
-    xit 'returns an array with the array and hash values' do
+    it 'returns an array with the array and hash values' do
       my_favorites = { color: ['orange', 'green'], number: { lucky: 7 } }
       expect(favorite_items(my_favorites)).to eq([['orange', 'green'], { lucky: 7 }])
     end

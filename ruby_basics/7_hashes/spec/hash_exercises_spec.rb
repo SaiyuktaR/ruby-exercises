@@ -48,7 +48,7 @@ RSpec.describe 'Hash Exercises' do
       expect(favorite_number(my_favorites)).to eq({ lucky: 7 })
     end
 
-    xit 'returns the default number when the key is not found' do
+    it 'returns the default number when the key is not found' do
       my_favorites = { color: ['orange', 'green'], movie: 'Avengers: Endgame' }
       expect(favorite_number(my_favorites)).to eq(42)
     end
